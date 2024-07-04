@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizzing: border-box;
+}
+header{
+  background: #EA2027;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px; 
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-shadow: 5px 10px 10px #000000;
+}
+nav{
+  background: #2ed573;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px; 
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+  background: #ffb142;
+  flex-basis: 75%
+  padding: 25px 30px;
+}
+pre{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px 10px
+ }
+aside{
+  background: #ffb142;
+  flex-basis: 40%;
+  padding: 25px 30px;
+}
+aside ul{
+  margin-left: 18px;
+  margin-top: 10px;
+}
+footer{
+  background: #40407a;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px; 
+  font-family: sans-serif;
+}
+#hero{
+  background: #546de5;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px; 
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d2dae2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+#hero h1{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#hero a{
+  background: #ffb142;
+  color: white;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 10px 22px;
+  margin-top: 25px;
+  transition: 0.5s;
+}
+#hero a:hover{
+  background: #B53471;
+  color: yellowgreen;
+  }
+h3{
+  
+  color: #f7f1e3;
+  background: #40407a;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+ }
+div.a{
+  position: sticky;
+  color: blueviolet;
+}
